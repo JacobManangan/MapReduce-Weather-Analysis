@@ -15,7 +15,7 @@ public void reduce(Text key, Iterable<IntWritable> values,
    Context context)
    throws IOException, InterruptedException {
 
-	// Your reduce function implementation here
+
 	int sum = 0;
 	int count = 0;
 	int average;
