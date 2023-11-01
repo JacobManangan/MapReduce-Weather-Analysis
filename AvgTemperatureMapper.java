@@ -17,7 +17,7 @@ private static final int MISSING = 9999;
 @Override
 public void map(LongWritable key, Text value, Context context)
    throws IOException, InterruptedException {
-   // Your mapper implementation here
+
     String line = value.toString();
     int airTemperature;
 
